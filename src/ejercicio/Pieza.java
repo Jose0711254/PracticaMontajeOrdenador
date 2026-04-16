@@ -1,13 +1,13 @@
 package ejercicio;
 
-public class Piezas {
+public abstract class Pieza {
 
     private String nombre;
     private String fabricante;
     private double precio;
     private int consumo;
 
-    public Piezas(String nombre, String fabricante, double precio, int consumo) {
+    public Pieza(String nombre, String fabricante, double precio, int consumo) {
         this.nombre = nombre;
         this.fabricante = fabricante;
         this.precio = precio;

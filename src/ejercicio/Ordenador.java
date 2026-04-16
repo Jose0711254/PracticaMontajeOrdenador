@@ -1,5 +1,9 @@
-package ejercicio.caja;
+package ejercicio;
 
+import ejercicio.caja.Caja;
+import ejercicio.caja.FuenteAlimentacion;
+import ejercicio.caja.Refrigeracion;
+import ejercicio.caja.TipoDDR;
 import ejercicio.caja.placabase.CPU;
 import ejercicio.caja.placabase.GPU;
 import ejercicio.caja.placabase.PlacaBase;

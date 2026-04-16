@@ -1,8 +1,8 @@
 package ejercicio.caja;
 
-import ejercicio.Piezas;
+import ejercicio.Pieza;
 
-public class Caja extends Piezas {
+public class Caja extends Pieza {
     private TipoCajas tipoCaja;
 
     public Caja(String nombre, String fabricante, double precio, int consumo, TipoCajas tipoCaja) {
