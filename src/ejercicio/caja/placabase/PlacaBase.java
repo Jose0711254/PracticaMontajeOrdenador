@@ -25,11 +25,14 @@ public class PlacaBase extends Caja {
         int d5 = 0;
         int gd = 0;
         for (MemoriaRam m : memorias){
-            if (m instanceof GDDR)
+            if (m instanceof GDDR){
                 gd++;
-            else if (m instanceof DDR) {
-                if (((DDR) m).getTipo() == TipoDDR.DDR4) d4++;
-                else d5++;
+            } else if (m instanceof DDR) {
+                if (((DDR) m).getTipo() == TipoDDR.DDR4){
+                    d4++;
+                }else{
+                    d5++;
+                }
             }
         }
 

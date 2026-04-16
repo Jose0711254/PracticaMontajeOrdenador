@@ -41,8 +41,8 @@ public class Principal {
 
         System.out.println("\n----------------------------");
         if (dineroCliente >= precioTotal) {
-            double cambio = dineroCliente - precioTotal;
-            System.out.println("✅ Compra OK. Tu cambio es: " + cambio + "€");
+            double cambioDinero = dineroCliente - precioTotal;
+            System.out.println(" Compra OK. Tu cambio es: " + cambioDinero + "€");
 
             miPc.placa.inspeccionarRAM();
 
@@ -53,8 +53,8 @@ public class Principal {
             }
 
         } else {
-            double falta = precioTotal - dineroCliente;
-            System.out.println("Error. Te faltan: " + falta + "€");
+            double dineroFalta = precioTotal - dineroCliente;
+            System.out.println("Error. Te faltan: " + dineroFalta + "€");
         }
         System.out.println("----------------------------");
     }
